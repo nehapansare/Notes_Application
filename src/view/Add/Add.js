@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './add.css';
+import './Add.css';
 import { Link } from 'react-router-dom';
 import toast from 'react-hot-toast';
 
