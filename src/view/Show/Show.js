@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './show.css';
+import './Show.css';
 import { Link } from 'react-router-dom';
 import NoteCard from '../../compoent/NoteCard/NoteCard';
 
