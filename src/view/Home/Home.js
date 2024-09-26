@@ -1,6 +1,6 @@
 import React from 'react'
 import {cards} from '../../Config/card'
-import "./home.css"
+import "./Home.css"
 import "../../../src/App.css"
 import {Link} from 'react-router-dom'
 
