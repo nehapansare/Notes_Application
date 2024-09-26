@@ -1,0 +1,36 @@
+.note-img-container1 {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  margin-bottom: 20px; /* Add spacing below */
+}
+
+.notes-img {
+  margin-right: 10px; /* Add space between image and header */
+  width: 50px; /* Adjust the width as needed */
+}
+
+.notes-title {
+  margin: 0; /* Remove default margin */
+}
+
+.add-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+  height: 100vh; 
+  text-align: center;
+  padding-top: 20px; /* Add padding to position content at the upper side */
+}
+
+.note-container1 {
+  width: 100%; /* Adjust width as needed */
+  margin: 0 auto; /* Centers the container */
+  overflow-y: scroll;
+  height: 70vh;
+  background-color: transparent; /* Set background to none */
+  padding: 10px; /* Optional padding */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items inside the container */
+}
+
