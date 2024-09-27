@@ -11,6 +11,13 @@ function Show() {
     setNotes(showNotes);
   }, []);
 
+  // Define the deleteNote function
+  const deleteNote = (index) => {
+    const updatedNotes = notes.filter((_, i) => i !== index);
+    setNotes(updatedNotes);
+    localStorage.setItem("notes", JSON.stringify(updatedNotes));
+  };
+
   return (
     <div className="add-container1">
       <Link to='/'>
@@ -29,7 +36,15 @@ function Show() {
       <div className='note-container1'>
         {notes.map((note, index) => {
           const { title, description, category } = note;
-          return <NoteCard key={index} title={title} description={description} category={category} />;
+          return (
+            <NoteCard 
+              key={index} 
+              title={title} 
+              description={description} 
+              category={category} 
+              onDelete={() => deleteNote(index)} // Pass deleteNote function
+            />
+          );
         })}
       </div>
     </div>
