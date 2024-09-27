@@ -1,16 +1,16 @@
 .note-img-container1 {
   display: flex;
-  align-items: center; /* Align items vertically */
-  margin-bottom: 20px; /* Add spacing below */
+  align-items: center; 
+  margin-bottom: 20px; 
 }
 
 .notes-img {
-  margin-right: 10px; /* Add space between image and header */
-  width: 50px; /* Adjust the width as needed */
+  margin-right: 10px; 
+  width: 50px; 
 }
 
 .notes-title {
-  margin: 0; /* Remove default margin */
+  margin: 0; 
 }
 
 .add-container1 {
@@ -19,18 +19,17 @@
   align-items: center;   
   height: 100vh; 
   text-align: center;
-  padding-top: 20px; /* Add padding to position content at the upper side */
+  padding-top: 20px; 
 }
 
 .note-container1 {
-  width: 100%; /* Adjust width as needed */
-  margin: 0 auto; /* Centers the container */
+  width: 100%; 
+  margin: 0 auto; 
   overflow-y: scroll;
   height: 70vh;
-  background-color: transparent; /* Set background to none */
-  padding: 10px; /* Optional padding */
+  background-color: transparent; 
+  padding: 10px; 
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center items inside the container */
+  align-items: center; 
 }
-

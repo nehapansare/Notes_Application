@@ -36,20 +36,11 @@
     margin: 0;
     font-weight: 700;
   }
-  
-  .note-card-body {
-    display: flex;
-    justify-content: space-between; /* Space between content and category */
-    width: 100%; /* Ensures full width for content alignment */
-    align-items: center; /* Align content and category vertically centered */
-  }
-  
   .note-card p {
     font-size: 14px;
     color: #555;
-    margin: 0; /* Remove margin to align neatly */
+    margin: 0; 
   }
-  
   .category {
     padding: 4px 8px;
     background-color: #ffeaa7; 
@@ -57,5 +48,30 @@
     font-size: 12px;
     border-radius: 5px;
     font-weight: bold;
-    margin-left: 10px; /* Space between content and category */
+    margin-left: 10px; 
+  }
+  .note-card-body {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+
+  
+  .delete-button {
+    align-self: flex-start; 
+    padding: 6px 12px;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #ff7675;
+  }
+  .cat-container{
+    display: flex;
+    justify-content: space-between;
   }
